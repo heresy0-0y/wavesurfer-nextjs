@@ -14,7 +14,7 @@ const Songs = () => {
   return (
     <>
       <Box w="100%">
-        <Waveform url={testUrl} />
+        <Waveform url={testStatic /* or testUrl*/} />
       </Box>
     </>
   );
